@@ -22,7 +22,7 @@ $miracle = get_miracle();
           <div class="media-left"> <a href="#"> <img width="60" class="media-object" src="images/foot-img-gal.jpg" alt="placeholder image"> </a> </div>
           <div class="media-body">
             <h4 class="media-heading"><?php echo $key['story_teller'] ?></h4>
-            <?php echo $key['miracle_story'] ?></div>
+            <?php echo substr($key['miracle_story'], 0, 100);  ?></div>
         </div>
         
       </div>
